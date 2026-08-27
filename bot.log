@@ -1,0 +1,96 @@
+2026-08-26 22:54:21,617 - bot.main - ERROR - Errores de configuración:
+2026-08-26 22:54:21,617 - bot.main - ERROR -   - DISCORD_TOKEN no configurado en .env
+2026-08-26 22:54:35,477 - discord.client - WARNING - davey is not installed, voice will NOT be supported
+2026-08-26 22:54:35,477 - bot.main - INFO - Iniciando bot...
+2026-08-26 22:54:35,477 - discord.client - INFO - logging in using static token
+2026-08-26 22:54:38,188 - bot.main - INFO - Cargando extensiones (cogs)...
+2026-08-26 22:54:38,408 - bot.main - INFO - Extensiones cargadas correctamente
+2026-08-26 22:54:41,775 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 411c8bd2e8342a1edd8fede2b5a0944b).
+2026-08-26 22:54:43,830 - bot.main - INFO - Bot conectado como Bot-YT-DJ#7915 (ID: 1542393511452872784)
+2026-08-26 22:54:43,830 - bot.main - INFO - Conectado a 1 servidor(es)
+2026-08-26 22:54:43,830 - bot.main - INFO -   - Servidor de prueba (ID: 1542396487227670629)
+2026-08-26 22:55:15,243 - bot.music.player - ERROR - Error conectando a voz: davey library needed in order to use voice
+Traceback (most recent call last):
+  File "F:\Work\Bot Music\bot\music\player.py", line 72, in connect
+    self.voice_client = await channel.connect()
+                        ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MauricioHernandez\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\abc.py", line 2144, in connect
+    voice: T = cls(client, self)
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\MauricioHernandez\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\voice_client.py", line 222, in __init__
+    raise RuntimeError('davey library needed in order to use voice')
+RuntimeError: davey library needed in order to use voice
+2026-08-26 22:57:03,219 - discord.client - WARNING - davey is not installed, voice will NOT be supported
+2026-08-26 22:57:03,219 - bot.main - INFO - Iniciando bot...
+2026-08-26 22:57:03,219 - discord.client - INFO - logging in using static token
+2026-08-26 22:57:06,485 - bot.main - INFO - Cargando extensiones (cogs)...
+2026-08-26 22:57:06,687 - bot.main - INFO - Extensiones cargadas correctamente
+2026-08-26 22:57:08,114 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 8abf290c4ddff2a5eb2f55e7042e838d).
+2026-08-26 22:57:10,119 - bot.main - INFO - Bot conectado como Bot-YT-DJ#7915 (ID: 1542393511452872784)
+2026-08-26 22:57:10,119 - bot.main - INFO - Conectado a 1 servidor(es)
+2026-08-26 22:57:10,119 - bot.main - INFO -   - Servidor de prueba (ID: 1542396487227670629)
+2026-08-26 22:57:18,388 - bot.music.player - ERROR - Error conectando a voz: davey library needed in order to use voice
+Traceback (most recent call last):
+  File "F:\Work\Bot Music\bot\music\player.py", line 72, in connect
+    self.voice_client = await channel.connect()
+                        ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MauricioHernandez\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\abc.py", line 2144, in connect
+    voice: T = cls(client, self)
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\MauricioHernandez\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\voice_client.py", line 222, in __init__
+    raise RuntimeError('davey library needed in order to use voice')
+RuntimeError: davey library needed in order to use voice
+2026-08-26 23:01:47,240 - bot.main - INFO - Iniciando bot...
+2026-08-26 23:01:47,240 - discord.client - INFO - logging in using static token
+2026-08-26 23:01:50,316 - bot.main - INFO - Cargando extensiones (cogs)...
+2026-08-26 23:01:50,523 - bot.main - INFO - Extensiones cargadas correctamente
+2026-08-26 23:01:51,873 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 0d23978c0b3ddba1b5d1883bcc026ac6).
+2026-08-26 23:01:53,886 - bot.main - INFO - Bot conectado como Bot-YT-DJ#7915 (ID: 1542393511452872784)
+2026-08-26 23:01:53,886 - bot.main - INFO - Conectado a 1 servidor(es)
+2026-08-26 23:01:53,886 - bot.main - INFO -   - Servidor de prueba (ID: 1542396487227670629)
+2026-08-26 23:02:52,489 - bot.main - INFO - Iniciando bot...
+2026-08-26 23:02:52,489 - discord.client - INFO - logging in using static token
+2026-08-26 23:02:55,553 - bot.main - INFO - Cargando extensiones (cogs)...
+2026-08-26 23:02:55,753 - bot.main - INFO - Extensiones cargadas correctamente
+2026-08-26 23:02:57,191 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 01dde2b46b602e6779f519a4a9272083).
+2026-08-26 23:02:59,197 - bot.main - INFO - Bot conectado como Bot-YT-DJ#7915 (ID: 1542393511452872784)
+2026-08-26 23:02:59,197 - bot.main - INFO - Conectado a 1 servidor(es)
+2026-08-26 23:02:59,197 - bot.main - INFO -   - Servidor de prueba (ID: 1542396487227670629)
+2026-08-26 23:03:05,654 - discord.voice_state - INFO - Connecting to voice...
+2026-08-26 23:03:05,654 - discord.voice_state - INFO - Starting voice handshake... (connection attempt 1)
+2026-08-26 23:03:05,862 - discord.voice_state - INFO - Voice handshake complete. Endpoint found: c-dfw15-747db7e7.discord.media:8443
+2026-08-26 23:03:06,317 - discord.voice_state - INFO - Voice connection complete.
+2026-08-26 23:03:06,317 - bot.music.player - INFO - Conectado a canal de voz: General (guild: 1542396487227670629)
+2026-08-26 23:03:06,680 - bot.commands.voice - INFO - Bot unido a General en Servidor de prueba
+2026-08-26 23:04:49,142 - bot.music.downloader - INFO - Track extraído: Ed Sheeran - Shape of You (Official Music Video) (263s)
+2026-08-26 23:04:49,142 - bot.music.queue - INFO - Track añadido a cola [1542396487227670629]: Ed Sheeran - Shape of You (Official Music Video) (cola: 1)
+2026-08-26 23:04:49,142 - bot.music.queue - INFO - Siguiente track [1542396487227670629]: Ed Sheeran - Shape of You (Official Music Video)
+2026-08-26 23:04:49,188 - bot.music.player - INFO - Reproduciendo: Ed Sheeran - Shape of You (Official Music Video)
+2026-08-26 23:05:16,471 - discord.voice_state - INFO - The voice handshake is being terminated for Channel ID 1542396488758595637 (Guild ID 1542396487227670629)
+2026-08-26 23:05:16,488 - bot.music.player - INFO - Track finalizado: Ed Sheeran - Shape of You (Official Music Video)
+2026-08-26 23:05:16,488 - discord.player - INFO - ffmpeg process 22456 has not terminated. Waiting to terminate...
+2026-08-26 23:05:16,488 - bot.music.player - INFO - Cola vacía, reproducción terminada
+2026-08-26 23:05:16,493 - discord.player - INFO - ffmpeg process 22456 should have terminated with a return code of 1.
+2026-08-26 23:06:09,479 - bot.main - INFO - Iniciando bot...
+2026-08-26 23:06:09,479 - discord.client - INFO - logging in using static token
+2026-08-26 23:06:12,410 - bot.main - INFO - Cargando extensiones (cogs)...
+2026-08-26 23:06:12,610 - bot.main - INFO - Extensiones cargadas correctamente
+2026-08-26 23:06:14,208 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 14fac1bdeb5ff1da876557b5aff4aaea).
+2026-08-26 23:06:16,215 - bot.main - INFO - Bot conectado como Bot-YT-DJ#7915 (ID: 1542393511452872784)
+2026-08-26 23:06:16,215 - bot.main - INFO - Conectado a 1 servidor(es)
+2026-08-26 23:06:16,215 - bot.main - INFO -   - Servidor de prueba (ID: 1542396487227670629)
+2026-08-26 23:06:24,140 - discord.voice_state - INFO - Connecting to voice...
+2026-08-26 23:06:24,141 - discord.voice_state - INFO - Starting voice handshake... (connection attempt 1)
+2026-08-26 23:06:24,346 - discord.voice_state - INFO - Voice handshake complete. Endpoint found: c-dfw15-747db7e7.discord.media:8443
+2026-08-26 23:06:24,686 - discord.voice_state - INFO - Voice connection complete.
+2026-08-26 23:06:24,686 - bot.music.player - INFO - Conectado a canal de voz: General (guild: 1542396487227670629)
+2026-08-26 23:06:25,031 - bot.commands.voice - INFO - Bot unido a General en Servidor de prueba
+2026-08-26 23:06:59,314 - bot.music.downloader - INFO - Track extraído: Adolescent's Orquesta - Virgen (Letra Oficial) (272s)
+2026-08-26 23:06:59,314 - bot.music.queue - INFO - Track añadido a cola [1542396487227670629]: Adolescent's Orquesta - Virgen (Letra Oficial) (cola: 1)
+2026-08-26 23:06:59,314 - bot.music.queue - INFO - Siguiente track [1542396487227670629]: Adolescent's Orquesta - Virgen (Letra Oficial)
+2026-08-26 23:06:59,328 - bot.music.player - INFO - Reproduciendo: Adolescent's Orquesta - Virgen (Letra Oficial)
+2026-08-26 23:10:04,854 - discord.voice_state - INFO - The voice handshake is being terminated for Channel ID 1542396488758595637 (Guild ID 1542396487227670629)
+2026-08-26 23:10:04,869 - bot.music.player - INFO - Track finalizado: Adolescent's Orquesta - Virgen (Letra Oficial)
+2026-08-26 23:10:04,869 - discord.player - INFO - ffmpeg process 20960 has not terminated. Waiting to terminate...
+2026-08-26 23:10:04,869 - bot.music.player - INFO - Cola vacía, reproducción terminada
+2026-08-26 23:10:04,874 - discord.player - INFO - ffmpeg process 20960 should have terminated with a return code of 1.
